@@ -21,4 +21,13 @@ func main() {
 	var value2 = (((2+6)%3)*4 - 2) / 3
 	var isEqual2 = value2 != 2
 	fmt.Println(isEqual2)
+
+	ValueGaji := 15000000
+	ValuePengeluaran := 5500000
+
+	if ValueGaji <= ValuePengeluaran {
+		println("Kamu Miskin Mas")
+	} else if ValueGaji > ValuePengeluaran {
+		fmt.Println("Foya-Foya dong")
+	}
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -28,8 +29,8 @@ func main() {
 	ValuePengeluaran := 5500000
 
 	monthlyexpense := ValueGaji > ValuePengeluaran
-	//result2 := strconv.FormatBool(monthlyexpense)
-	fmt.Println(monthlyexpense)
-	fmt.Printf(`Boros lu ah`, monthlyexpense)
+	result2 := strconv.FormatBool(monthlyexpense)
+	fmt.Println(result2)
+	fmt.Printf(`Boros lu ah`, result2)
 
 }
